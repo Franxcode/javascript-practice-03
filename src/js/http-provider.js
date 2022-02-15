@@ -2,8 +2,8 @@ const jokeUrl = 'https://api.chucknorris.io/jokes/random';
 const userUrl = 'https://reqres.in/api/users?page=2';
 
 // Cloudinary
-const cloudPreset = 'ml_default';
-const cloudUrl = 'https://api.cloudinary.com/v1_1/franx/image/upload';
+// const cloudPreset = process.env.CLOUD_PRESET;
+// const cloudUrl = process.env.CLOUD_URL;
 
 const obtenerChiste = async() => {
 
